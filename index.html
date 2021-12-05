@@ -6,22 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Florian Campion</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="nav-list">
                 <li><a href="#presentation">Présentation</a></li>
                 <li><a href="#competences">Compétences</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
-            </ul>
+             </ul>
         </nav>
-        <div class="btn-burger">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+
         <h1>FLORIAN <br>CAMPION</h1>
     </header>
     <main>
@@ -47,44 +44,63 @@
         </section>
         <section id="competences" class="competences">
             <h2>Compétences</h2>
-            <div class="hexa-competences">
-                <div class="hexagone hexa-1">
-                    <div class="hexagonemain">
-                        <div class="hexagonemainbefore"></div>
+                <ul class="hexagone">
+                <li class="hexagone-cell">
+                    <div class="hexagone-cell_title">
+                        <div>
+                            <img src="./img/html-5.svg" alt="icone-html">
+                        </div>
+                        <p>HTML</p>
                     </div>
-                    <span class="hexagonecontent">JAVASCRIPT</span>
-                </div>
-                <div class="hexagone hexa-2">
-                    <div class="hexagonemain">
-                        <div class="hexagonemainbefore"></div>
+                </li>
+                <li class="hexagone-cell">
+                    <div class="hexagone-cell_title">
+                        <div>
+                            <img src="./img/javascript.svg" alt="icone-javascript">
+                        </div>
+                        
+                        <p>JAVASCRIPT</p>
                     </div>
-                    <span class="hexagonecontent">JAVASCRIPT</span>
-                </div>
-                <div class="hexagone hexa-3">
-                    <div class="hexagonemain">
-                        <div class="hexagonemainbefore"></div>
+                </li>
+                <li class="hexagone-cell">
+                    <div class="hexagone-cell_title">
+                        <div>
+                            <img alt="icone-css" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQwIiBoZWlnaHQ9IjI0MCIKdmlld0JveD0iMCAwIDQ4IDQ4IgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxwYXRoIGZpbGw9IiMwMjc3QkQiIGQ9Ik00MSw1SDdsMywzNGwxNCw0bDE0LTRMNDEsNUw0MSw1eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMwMzlCRTUiIGQ9Ik0yNCA4TDI0IDM5LjkgMzUuMiAzNi43IDM3LjcgOHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMzMuMSAxM0wyNCAxMyAyNCAxNyAyOC45IDE3IDI4LjYgMjEgMjQgMjEgMjQgMjUgMjguNCAyNSAyOC4xIDI5LjUgMjQgMzAuOSAyNCAzNS4xIDMxLjkgMzIuNSAzMi42IDIxIDMyLjYgMjF6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0VFRSIgZD0iTTI0LDEzdjRoLTguOWwtMC4zLTRIMjR6IE0xOS40LDIxbDAuMiw0SDI0di00SDE5LjR6IE0xOS44LDI3aC00bDAuMyw1LjVsNy45LDIuNnYtNC4ybC00LjEtMS40TDE5LjgsMjd6Ij48L3BhdGg+PC9zdmc+"/>
+                        </div>
+                        <p>CSS</p>
                     </div>
-                    <span class="hexagonecontent">JAVASCRIPT</span>
-                </div>
-                <div class="hexagone hexa-4">
-                    <div class="hexagonemain">
-                        <div class="hexagonemainbefore"></div>
+                </li>
+                <li class="hexagone-cell">
+                    <div class="hexagone-cell_title">
+                        <div>
+                            <img src="./img/wordpress.svg" alt="icon-wordpress">
+                        </div>
+                        
+                        <p>WORDPRESS</p>
                     </div>
-                    <span class="hexagonecontent">JAVASCRIPT</span>
-                </div>
-                <div class="hexagone hexa-5">
-                    <div class="hexagonemain">
-                        <div class="hexagonemainbefore"></div>
+                </li>
+                <li class="hexagone-cell">
+                    <div class="hexagone-cell_title">
+                        <div>
+                            <img src="./img/conception-de-maquette.svg" alt="icone-maquette">
+                        </div>
+                            
+                        
+                        <p>MAQUETTAGE</p>
                     </div>
-                    <span class="hexagonecontent">JAVASCRIPT</span>
-                </div>
-                <div class="hexagone hexa-6">
-                    <div class="hexagonemain">
-                        <div class="hexagonemainbefore"></div>
+                </li>
+                <li class="hexagone-cell">
+                    <div class="hexagone-cell_title">
+                        <div>
+                            <img src="./img/responsive-design.svg" alt="icon-responsive-design">
+                        </div>
+                        <p>RESPONSIVE DESIGN</p> 
                     </div>
-                    <span class="hexagonecontent">JAVASCRIPT</span>
-                </div>
-            </div>
+                </li>
+                
+                <li class="hexagone-cell hexagone_Hidden">
+                </li>
+            </ul>
         </section>
         <section id="portfolio" class="portfolio">
             <h2>Portfolio</h2>
@@ -148,7 +164,7 @@
                 
             </div>  
         </footer>
-        
+
     </main>
 </body>
 </html>
