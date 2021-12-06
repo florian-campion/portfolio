@@ -59,7 +59,7 @@ h1 {
     top: 30%;
     left:20%
 }
-
+/* NAVBAR */
 .nav-container {
     width: 100%;
     margin: 0 auto;
@@ -297,11 +297,7 @@ nav ul li a:hover {
     transition: opacity 350ms;
     -webkit-transition: opacity 350ms;
   }
-  /* .hexagone-cell:hover
-  .hexagone-cell_title
-  {
-    opacity: 0;
-  } */
+
   .hexagone-cell:hover
   .hexagone-cell_img
   {
@@ -488,6 +484,8 @@ footer img{
     flex-direction: row;
 }
 
+/* Format moyen ecran */
+
 @media (min-width: 550px) and (max-width: 825px) {
     .presentation {
         flex-direction: column;
@@ -509,7 +507,7 @@ footer img{
         margin: 5px 0;
     }
     .competences {
-        height:170vh;
+        height:180vh;
      }
     .hexagone-cell:nth-child(3n)  {
         margin-right: calc(50% - 125px);
@@ -521,6 +519,7 @@ footer img{
     }
 }
 
+/* Format petit ecran */
 @media screen and (max-width:550px) {
 
     h2 {
@@ -574,7 +573,7 @@ footer img{
         margin-bottom: 20px;
     }
     .competences {
-        height:280vh;
+        height:290vh;
      }
     .hexagone-cell {
     
@@ -599,7 +598,7 @@ footer img{
     
 }
 
-
+/* Format grand ecran */
 @media (min-width: 825px) and (max-width: 1600px) {
     
  
